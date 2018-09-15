@@ -7,7 +7,6 @@ var twoGem = Math.floor(Math.random() * 13);
 var treeGem = Math.floor(Math.random() * 13);
 var fourGem = Math.floor(Math.random() * 13);
 
-
 function initializeGame () {
   oneGem = 0;
   twoGem = 0;
@@ -21,7 +20,7 @@ function initializeGame () {
   twoGem = Math.floor(Math.random() * 13);
   treeGem = Math.floor(Math.random() * 13);
   fourGem = Math.floor(Math.random() * 13);
-  $("#goal").text(toMatch);
+  
   console.log("One: " + oneGem);
   console.log("Two " + twoGem); 
   console.log("Tree: " + treeGem);
@@ -30,14 +29,8 @@ function initializeGame () {
 
 
 
-
-$("#goal").text(toMatch);
-
- 
-
-
 $(".gems").click(function(){
-  
+  $("#goal").text(toMatch);
   if ($(this).attr("id") === "oneGem") {
     result = oneGem;
   } else if ($(this).attr("id") === "twoGem") {

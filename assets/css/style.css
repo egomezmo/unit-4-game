@@ -1,42 +1,85 @@
 body {
-    background: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    margin:40px;
-    line-height: 1.5;
-    padding-left:10px;
+    background-image: url("../images/fondo.jpg");
+    background-color: #cccccc;
+
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:10px;
+    padding:10px;
 }
 
 #header{
     height: 80px;
-    width: 400px;
-    font-size: 40px;
-    margin-bottom: 20px;
+    width: 310px;
+    font-size: 40px;s
+    margin-bottom: 10px;
     background:#BD6427;
     color:white;
     padding-left:10px;
+    padding-top:20px;
+    margin-bottom: 10px;
+    
 }
 
 #instrucions{
-    height: 200px;
-    width: 600px;
+    padding:20px 10px;
+    height: 450px;
+    width: 450px;
     margin-bottom: 20px;
     background:#F2DDBB;
-    padding-left:10px;
+    
+    color:green;
+    line-height:1.5;
 }
 
-#noGuess{
+
+
+#goala{
+    width: 300px;
+    height: 120px;
+    background: white;
+    font-size:30px;
+    padding-top:10px;
+    padding-left: 10px;
     background: #51C172;
-    width: 200px;
+    float: left;
 }
 
 #counts{
-    background: #6df2e7;
     width: 100px;
+    height: 120px;
+    background: white;
+    font-size:15px;
+    padding-top:10px;
+    padding-left: 10px;
+    margin-left:10px;
+    background: #6df2e7;
+    float: left;
+    
 }
 
-.results{
-    background: #319987;
+#gemsa{
+    clear:both;
+    padding-top:10px;
+}
+
+
+#resultsOne{
     width: 200px;
-    color:white;   
+    height: 30px ;
+    margin-bottom: 10px; 
+    margin-top:5px;   
+    background: #319987;
+    color:white;
+    padding-top:5px;
+    
 }
-
+#resultSum{
+    width: 200px;
+    height: 100px ;
+    margin-bottom: 10px;    
+    background: #319987;
+    color:white;
+    font-size:30px;
+    padding-top:10px;
+    padding-left: 10px;
+}
