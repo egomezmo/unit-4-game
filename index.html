@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+        <head>
+            <title>CristalsCollector</title>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">        <!-- Devices -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- Bootstrap -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- libreria Jquery -->
+
+            <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />    <!-- resetear CSS -->
+            <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />    <!-- estilos CSS -->
+            
+        </head>
+
+        <body>
+            <div class="container"></div>
+                <div id="header">
+                    <h1>Cristal Collector!</h1>
+                </div>
+                
+                <div id="instrucions">
+                    <p>Your will be given a random number at the star of the game</p>
+                    <p>The are four cristal below. By clicking ona cristal you will add a specific amount of points to your total score</p>
+                    <p>You win the game by matching your total score to random number, you lose the game if our total score goes above the random number</p>
+                    <p>The value of each cristal is hidden from you until you click on it</p>
+                    <p>Each time when you game stars, the game will change the values of each cristal</p>
+                </div>
+
+            
+
+            <div class="container">
+                <div class="row">
+
+                <div class="col-6" id="noGuess">
+                    <hr>
+                    <p id="goal"></p>
+                    <hr>
+                </div>
+
+                <div class="col-6" id="counts">
+                    <p id="wins">Win:</p>
+                    <p id="losses">Losses:</p>
+                    <hr>
+                </div>
+
+            </div>
+
+            
+            
+        
+            
+                <img class="gems" id="oneGem" src="assets/images/gemOne.jpg" alt="gemOne" style="width:48px;height:48px;">
+                <img class="gems" id="twoGem" src="assets/images/gemTwo.jpg" alt="gemTwo" style="width:48px;height:48px;">
+                <img class="gems" id="treeGem" src="assets/images/gemTree.jpg" alt="gemTree" style="width:48px;height:48px;">
+                <img class="gems" id="fourGem" src="assets/images/gemFour.jpg" alt="gemFour" style="width:48px;height:48px;">
+                
+            
+                <p class="results" >Your Total Score is:</p> 
+                <p class="results" id="resultSum">0</p>
+
+            <script src="assets/javascript/game.js"></script> <!-- javascript -->
+        </body> 
+    </html>

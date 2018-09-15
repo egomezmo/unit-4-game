@@ -1,0 +1,42 @@
+body {
+    background: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:40px;
+    line-height: 1.5;
+    padding-left:10px;
+}
+
+#header{
+    height: 80px;
+    width: 400px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    background:#BD6427;
+    color:white;
+    padding-left:10px;
+}
+
+#instrucions{
+    height: 200px;
+    width: 600px;
+    margin-bottom: 20px;
+    background:#F2DDBB;
+    padding-left:10px;
+}
+
+#noGuess{
+    background: #51C172;
+    width: 200px;
+}
+
+#counts{
+    background: #6df2e7;
+    width: 100px;
+}
+
+.results{
+    background: #319987;
+    width: 200px;
+    color:white;   
+}
+
